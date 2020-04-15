@@ -2,10 +2,12 @@ $mar : 10px;
 $headingFont: 40px;
 
 header{
-    background-color: skyblue;
-    border: 80px solid teal;
+    background-color: teal;
+    border: 20px solid skyblue;
     padding-top: 40px;
-    font-family: sans-serifs;
+    // font-family: sans-serifs;
+    font: outline;
+    font-family: consolas;
     font-weight: bold;
     text-align: center;
     font-size: $headingFont;
@@ -14,7 +16,20 @@ header{
 body{
     // margin: $mar;
     margin: $mar;
-    color: teal;
-    text-shadow: blue($color: #000000);
+    color: white;
+    text-shadow: black;
+
+}
+
+@media (min-width:650px) {
+    header::before{
+        content: "Welcome, to my labyrinth!";
+    }
+}
+
+@media (max-width:649px){
     
+    header::before{
+        content: "Welcome!";
+    }
 }
