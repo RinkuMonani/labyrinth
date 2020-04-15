@@ -1,0 +1,20 @@
+$mar : 10px;
+$headingFont: 40px;
+
+header{
+    background-color: skyblue;
+    border: 80px solid teal;
+    padding-top: 40px;
+    font-family: sans-serifs;
+    font-weight: bold;
+    text-align: center;
+    font-size: $headingFont;
+    height: 80px;
+}
+body{
+    // margin: $mar;
+    margin: $mar;
+    color: teal;
+    text-shadow: blue($color: #000000);
+    
+}
