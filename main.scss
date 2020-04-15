@@ -23,13 +23,17 @@ body{
 
 @media (min-width:650px) {
     header::before{
-        content: "Welcome, to my labyrinth!";
+        content: "Welcome! to my labyrinth.";
     }
 }
 
 @media (max-width:649px){
     
+    // header::before{
+    //     content: "Welcome!";
+    // }
     header::before{
-        content: "Welcome!";
+        content: "Welcome! to my labyrinth.";
+        font-size: 24px;
     }
 }
