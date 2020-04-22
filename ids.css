@@ -9,15 +9,33 @@
     font-style: normal;
     color:cornsilk;
     position: absolute;
-    right:50%;
+    right: 43%;
+    transition: 1s;
+}
+
+#labyrinth::after{
+    content:".";
+    opacity: 0;
+    font-style: italic;
+    letter-spacing: 2px;
+    color:white;
+}
+.heading:hover #labyrinth::after{
+    opacity: 1;
+    transition: linear 1s;
+}
+
+#heading-text{
+   position: absolute;
+   left: 26%;
 }
 .heading:hover #labyrinth{
     transition: linear 0.5s;
-    right: 24%;
+    right: 25%;
     
 }
 .heading:hover #heading-text{
     text-shadow: 2px 2px 2px lightblue;
-    transition: 1s;
+    transition: 1.2s;
     color:whitesmoke;
 }
