@@ -9,11 +9,7 @@
     width: 100%;
     height: 50vh;
     padding-top:20vh;
-    /* font-style: italic; */
-    letter-spacing: 2px;
     font-family: "consolas", monospace;
-    font-size: 3.0vw;
-
 }
 
 .navigation ul{
