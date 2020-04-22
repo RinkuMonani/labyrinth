@@ -2,15 +2,6 @@
     position: relative;
     top:-5.5px;
 }
-/*
-#labyrinth:hover::before{
-    content: "Welcome! to my ";
-    letter-spacing: 2px;
-    font-style: normal;
-    color:cornsilk;
-    font-size: 4vw;
-    transition: 5s;
-}*/
 
 #labyrinth{
     text-shadow: 2px 2px 4px skyblue;
@@ -21,12 +12,12 @@
     right:50%;
 }
 .heading:hover #labyrinth{
-    transition: linear 1s;
+    transition: linear 0.5s;
     right: 24%;
     
 }
 .heading:hover #heading-text{
     text-shadow: 2px 2px 2px lightblue;
-    transition: 3s;
+    transition: 1s;
     color:whitesmoke;
 }
