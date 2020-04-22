@@ -17,6 +17,6 @@
     letter-spacing: -2px;
     font-style: normal;
     color:cornsilk;
-    font-size: 4vw;
+    position: absolute;
+    right:50%;
 }
-
