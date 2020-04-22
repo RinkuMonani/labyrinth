@@ -10,6 +10,10 @@
     height: 50vh;
     color:bisque;
     padding-top:20vh;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: "consolas", monospace;
+    font-size: 3.0vw;
 }
 
 .navigation ul{
@@ -22,9 +26,11 @@
 
 .navigation li{
     float:left;
+    /* border: 2px solid rgb(228, 15, 15); */
+    border-collapse: collapse;
 }
 
-.navigation li a{
+.navigation li > a{
     display: block;
     color: white;
     text-align: center;
@@ -34,8 +40,24 @@
 
 .navigation li a:hover:not(.active){
     background-color: #111;
+    transition: 0.3s;
 }
 
 .active{
     background-color: rgb(0, 0, 0, 0.5);
+}
+
+.material-icons{
+    position: relative;
+    top:3.5px;
+}
+
+.content{
+    background-color: lightgrey;
+    height: 500px;
+    border-radius: 10px;
+}
+.contact-details{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
 }
