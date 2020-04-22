@@ -12,15 +12,6 @@
     right:50%;
 }
 
-/* #heading-text:hover{
-    text-shadow: 2px 2px 2px lightblue;
-    transition: 0.5s;
-    color:whitesmoke;
-    animation: title;
-} */
-.heading:hover{
-    background-color: ;
-}
 .heading:hover #labyrinth{
     transition: linear 1s;
     right: 24%;
