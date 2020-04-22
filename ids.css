@@ -20,3 +20,13 @@
     position: absolute;
     right:50%;
 }
+.heading:hover #labyrinth{
+    transition: linear 1s;
+    right: 24%;
+    
+}
+.heading:hover #heading-text{
+    text-shadow: 2px 2px 2px lightblue;
+    transition: 3s;
+    color:whitesmoke;
+}
