@@ -5,16 +5,13 @@
 
 #labyrinth:hover::before{
     content: "Welcome! to my ";
-    /* text-shadow: 2px 2px 4px skyblue; */
     letter-spacing: 2px;
     font-style: normal;
     color:cornsilk;
     font-size: 4vw;
-}
-
-#labyrinth:hover{
     transition: 5s;
 }
+
 #labyrinth{
     text-shadow: 2px 2px 4px skyblue;
     letter-spacing: -2px;
