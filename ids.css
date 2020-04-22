@@ -1,0 +1,10 @@
+#timeline{
+    position: relative;
+    top:-4.5px;
+}
+
+#labyrinth{
+    text-shadow: 2px 2px 4px skyblue;
+    letter-spacing: -2px;
+    font-style: normal;
+}
