@@ -2,7 +2,7 @@
     position: relative;
     top:-5.5px;
 }
-
+/*
 #labyrinth:hover::before{
     content: "Welcome! to my ";
     letter-spacing: 2px;
@@ -10,7 +10,7 @@
     color:cornsilk;
     font-size: 4vw;
     transition: 5s;
-}
+}*/
 
 #labyrinth{
     text-shadow: 2px 2px 4px skyblue;
