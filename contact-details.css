@@ -1,0 +1,49 @@
+.contact-details{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.contact-details h3{
+    text-shadow: 3px 3px 3px darkcyan;
+}
+
+.contact-details ul{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid white; */
+}
+
+.contact-details li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid white; */
+}
+
+.contact-details .fab {
+    font-size: 30px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding:10px;
+    border-radius: 10%;
+  }
+  
+  .fab:hover {
+      opacity: 0.7;
+  }
+
+#work, #professional{
+    position: relative;
+    top:-30px;
+}
+
+#work a, #professional a{
+    /* line-height: 1px; */
+    /* border: 2px solid white; */
+    position: relative;
+    top:20px;
+}

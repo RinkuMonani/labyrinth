@@ -11,6 +11,7 @@
     position: absolute;
     right: 43%;
     transition: 1s;
+    text-align: center;
 }
 
 #labyrinth::after{

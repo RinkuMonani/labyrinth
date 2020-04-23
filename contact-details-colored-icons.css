@@ -1,0 +1,68 @@
+.contact-details{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.contact-details ul{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid white; */
+}
+
+.contact-details li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid white; */
+}
+
+.contact-details .fab {
+    font-size: 30px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding:10px;
+    border-radius: 10%;
+  }
+  
+  .fab:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    /* background-color: #3B5998;
+    color: white; */
+    color: #3B5998;
+  }
+  
+  .fa-twitter {
+    /* background: #55ACEE; */
+    /* color: white; */
+    color:#55ACEE;
+  }
+
+  .fa-instagram{
+      /* background: purple; */
+      color:yellow;
+  }
+
+  .fa-linkedin{
+      color:#007bb5;
+  }
+  
+  .fa-google{
+    color:#dd4b39;
+  }
+
+  .fa-github{
+      color:rgb(13, 68, 13);
+  }
+
+  .fa-discord{
+      color:violet;
+  }
+ 
