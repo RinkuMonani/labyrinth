@@ -9,18 +9,24 @@
     height: 50vh;
     padding-top:20vh;
     font-family: "consolas", monospace;
-    font-size: 5vw;
+    /* font-size: 5vw; */
 }
-
+.heading{
+    height: 25vh;
+    width: 50%;
+    /* background-color: brown; */
+    margin-top: 0;
+}
 #labyrinth{
     text-shadow: 4px 4px 4px skyblue;
     letter-spacing: -2px;
     font-style: normal;
     color:cornsilk;
     position: absolute;
-    right: 40%;
+    right: 38%;
     transition: 1s;
     text-align: center;
+    font-size: 5vw;
 }
 
 #labyrinth::after{
