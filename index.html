@@ -10,7 +10,26 @@
         <link rel="stylesheet" href="contact-details.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        
+        <style>
+            .home p{
+                /* background-color: brown; */
+                position: relative;
+                right: -60px;
+                top:30px;
+                font-size: 1.5vw;
+                height: 200px; 
+                width: 70%; 
+                color:black; 
+                text-align: justify;
+                /* padding-top: 10px */
+    
+            }
+            .home img{
+                border-radius: 50%;
+                /* box-shadow: 10px black; */
+                float: left;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
@@ -18,7 +37,7 @@
             <h1 class="main-heading"><div class="heading"><span id="heading-text">Welcome! to my  </span><span id="labyrinth"> labyrinth</span></div></div></h1>
             
             
-            <div class="navigation">
+            <div class="navigation" style="z-index: 1;">
                 <ul>
                     <li><a class="active" href="#home">Home</a></li>
                     <li><a href="#personal-details">Personal Detials</a></li>
@@ -33,8 +52,12 @@
             <div class="content">
                 
                 
-                <div class="home">
-                    <h3>Home</h3>
+                <div class="home" style="padding-top:100px; padding-left:100px;">
+                    <!-- <h3>Home</h3> -->
+                    <img src=Pictures/myself.JPG height="300vh" width="300vw"></img>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+                    </p>
                 </div>
 
                 <a name="personal-details"></a>
