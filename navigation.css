@@ -11,12 +11,9 @@
 }
 
 .navigation li{
-    float:left;
-    /* border: 2px solid rgb(228, 15, 15); */
-    border-collapse: collapse;
+    float: left;
 }
-
-.navigation li > a{
+.navigation li a{
     display: block;
     color: white;
     text-align: center;
@@ -24,11 +21,7 @@
     text-decoration: none;
 }
 
-.navigation li a:hover:not(.active){
+.navigation li a:hover{
     background-color: #111;
     transition: 0.3s;
-}
-
-.active{
-    background-color: rgb(0, 0, 0, 0.5);
 }
