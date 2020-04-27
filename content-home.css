@@ -1,0 +1,31 @@
+.home{
+    /* padding-top:100px; 
+    padding-left:100px; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home p{
+    /* background-color: brown; */
+    font-size: 1.5vw;
+    width: 90%; 
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.home text, .home line{
+    color:black;
+    text-align: justify;
+}
+
+.home img{
+    border-radius: 50%;
+    float: left;
+    height: 20vw;
+    width: 20vw;
+} 
