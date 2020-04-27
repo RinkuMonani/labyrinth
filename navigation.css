@@ -1,13 +1,16 @@
 .navigation{
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
+    /* width: 100%; */
+    overflow: hidden;
 }
 .navigation ul{
     list-style-type: none;
     background-color: gray;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .navigation li{

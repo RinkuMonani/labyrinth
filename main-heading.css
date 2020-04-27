@@ -16,6 +16,7 @@
     height: 25vh;
     width: 50%;
     /* background-color: red; */
+    /* margin:auto; */
     display: flex;
     justify-content: center;
     align-items: center;
