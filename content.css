@@ -1,10 +1,10 @@
-.home, .personal-details, .i-and-a, .projects{
+#home, .personal-details, .i-and-a, .projects{
     background-color: gainsboro;
     height: 500px;
     border: 5px solid whitesmoke;
 }
 
 .content h3{
-    color:black;
+    /* color:black; */
     padding-top:250px;
 }
