@@ -6,14 +6,17 @@
 .main-heading{
     background-color: black;
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     font-family: "consolas", monospace;
     position: relative;
-    padding-top: 12.5vh;
+    /* padding-top: 12.5vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .heading{
     box-sizing: border-box;
-    height: 25vh;
+    height: 45vh;
     width: 50%;
     /* background-color: red; */
     /* margin:auto; */
