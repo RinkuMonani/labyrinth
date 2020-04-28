@@ -14,13 +14,13 @@
     </head>
     <body>
         <div class="container">
-            <a name="home"></a>
+            <a name="home1"></a>
             <h1 class="main-heading"><div class="heading"><span id="heading-text">Welcome! to my  </span><span id="labyrinth"> labyrinth</span></div></div></h1>
             
             
             <div class="navigation" style="z-index: 1;">
                 <ul>
-                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a class="active" href="#home1">Home</a></li>
                     <li><a href="#personal-details">Personal Detials</a></li>
                     <li><a href="#i-and-a">Interests & Activities</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -32,23 +32,24 @@
 
             <div class="content">
 
-                <div class="home">
-                    <p>
+                <div id="home">
+                    
+                    <home-content>
                         <img src="Pictures/myself.jpg"></img>
-                        <text style="padding-left:30px">
-                            My passion for technology is independent of the existence of a job. 
-                            It is not built around some extinguishable fire but the eternal flame. 
-                            Studying computer science made me fearless. 
-                            It ignited the curiosity and instated the desire to never stop learning.
-                            <br>
-                            <br>
-                            <line style="font-style: italic; font-weight: bold;">
-                                The goal now is to stay hungry, be humble and keep hustling!
-                                <a href="content-home-essay.html" target=_blank style="color:gray; text-decoration: none;">...</a>
-                            </line>
+                        <text>
+                            <a target=_blank href="content-home-essay.html" style="display: inline;">
+                                My passion for technology is independent of the existence of a job. 
+                                It is not built around some extinguishable fire but the eternal flame. 
+                                Studying computer science made me fearless. 
+                                It ignited the curiosity and instated the desire to never stop learning.
+                                <br>
+                                <br>
+                                <span id="lastline">The goal now is to stay hungry, be humble and keep hustling!</span>
+                            </a>
+                            <span id="home-dropdown-content">Click on the text to view the whole essay!</span>
                         </text>
-                        
-                    </p>
+                    </home-content>
+
                 </div>
 
                 <a name="personal-details"></a>
@@ -75,8 +76,6 @@
                         <li><a href="https://www.instagram.com/rnku_monani/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.facebook.com/rnku.Monani" class="fab fa-facebook"></a></li>
                         <li><a href="https://twitter.com/RinkuMonani" class="fab fa-twitter"></a></li>
-
-                    
                     </ul>
                 </div>
                 <div id="professional">
