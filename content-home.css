@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     color:white;
+    padding-top:30px;
+    padding-bottom: 30px;
 }
 home-content{
     /* display: flex; */
@@ -13,7 +15,6 @@ home-content{
     width: 90%;
     margin:auto;
 
-    font-size: 1.5vw;
 }
 
 #home img{
@@ -64,6 +65,7 @@ text:hover #home-dropdown-content{
 @media (max-width:500px){
     home-content{
         display: block;
+        font-size: 1em;
     }
     text{
         margin-top:20px;
@@ -78,6 +80,7 @@ text:hover #home-dropdown-content{
 @media (min-width:501px){
     home-content{
         display: flex;
+        font-size:1.5vw;
     }
     text{
         text-align: justify;
