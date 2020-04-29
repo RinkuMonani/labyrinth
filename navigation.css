@@ -27,6 +27,7 @@
 @media (max-width:920px){
     .navigation{
         position: static;
+        margin-top:10px;
     }
     .navigation li{
         float: none;
@@ -38,9 +39,9 @@
         position: sticky;
         position: -webkit-sticky;
         top: 0;
+
     }
     .navigation li{
         float: left;
-        
     } 
 }
