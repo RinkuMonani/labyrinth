@@ -1,0 +1,15 @@
+#details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+#personal-details, #education{
+    background-color: white;
+    width: 45%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

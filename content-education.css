@@ -1,0 +1,25 @@
+#education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+#matriculation, #high-school, #bachelors{
+    background-color: white;
+    width: 25%;
+    height: 70%;
+    /* box-shadow: 0px 8px 16px 0px gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#matriculation:hover, #high-school:hover, #bachelors:hover{
+    box-shadow: 0px 8px 16px 0px gray; 
+    width: 27%;
+    height: 72%;
+
+}
