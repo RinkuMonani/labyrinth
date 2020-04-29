@@ -3,7 +3,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    color:black;
+    color:white;
 }
 home-content{
     display: flex;
@@ -15,10 +15,21 @@ home-content{
 
     font-size: 1.5vw;
 }
+/* 
+@media (max-width:800){
+    home-content{
+        display: block;
+        color: purple;
+    }
+    text{
+        color:red;
+        text-align: center;
+    }
+} */
 
 #home img{
     border-radius: 50%;
-    float: left;
+    /* float: left; */
     height: 20vw;
     width: 20vw;
 }
@@ -27,10 +38,11 @@ home-content{
     padding-left:30px;
     text-align: justify;
     display: block;
+    /* background-color: brown; */
 }
 #home a{
     text-align: justify;
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
@@ -45,7 +57,7 @@ text a #lastline{
     text-align: left;
     position: absolute;
     margin-top:10px;
-    background-color: rgb(249, 249, 249);
+    background-color: gray;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 5px 16px;
     z-index: 1;
