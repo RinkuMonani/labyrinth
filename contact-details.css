@@ -4,10 +4,8 @@
     display: flex;
     text-align: center;
     box-sizing: border-box;
-    /* position: fixed;
-    bottom:0px;
-    right:0px; */
     margin-top: 10px;
+    color:white;
     
 }
 
@@ -35,6 +33,7 @@
     margin: 5px 2px;
     padding:10px;
     border-radius: 10%;
+    color:white;
   }
   
   .fab:hover {
@@ -45,10 +44,3 @@
     position: relative;
     top:-30px;
 }
-/* 
-#work a, #professional a{
-    /* line-height: 1px; */
-    /* border: 2px solid white; */
-    position: relative;
-    top:20px;
-} */
