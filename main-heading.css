@@ -28,7 +28,7 @@
     text-shadow: 4px 4px 4px skyblue;
     letter-spacing: -2px;
     font-style: normal;
-    color:cornsilk;
+    color:white;
     position: absolute;
     right: 38%;
     transition: 0.9s;
@@ -54,7 +54,7 @@
     position: absolute;
     left: 26%;
     text-shadow: 2px 2px 2px lightblue;
-    color:whitesmoke;
+    color:white;
     font-style: italic;
 }
 .heading:hover #labyrinth{
