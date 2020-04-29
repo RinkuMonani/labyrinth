@@ -1,8 +1,14 @@
 
-#home, .personal-details, .i-and-a, .projects{
-    background-color: white;
+#home, #education, .i-and-a, .projects{
+    display: block;
+    /* background-color: white; */
+    background-color: black;
+    width: 99%;
     height: 500px;
-    /* border-bottom: 5px solid black; */
+    box-shadow: 0px 8px 16px 0px gray;
+    /* padding-top:10px; */
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 .content h3{
