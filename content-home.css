@@ -6,7 +6,7 @@
     color:white;
 }
 home-content{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 
@@ -15,17 +15,6 @@ home-content{
 
     font-size: 1.5vw;
 }
-/* 
-@media (max-width:800){
-    home-content{
-        display: block;
-        color: purple;
-    }
-    text{
-        color:red;
-        text-align: center;
-    }
-} */
 
 #home img{
     border-radius: 50%;
@@ -36,7 +25,6 @@ home-content{
 
 #home text{
     padding-left:30px;
-    text-align: justify;
     display: block;
     /* background-color: brown; */
 }
@@ -63,10 +51,35 @@ text a #lastline{
     z-index: 1;
     transition: 0.3s;
     opacity: 0;
+    /* min-width: 160px; */
     
 }
 text:hover #home-dropdown-content{
     /* display: block; */
     /* transition: 0.5s; */
     opacity: 1;
+}
+
+
+@media (max-width:500px){
+    home-content{
+        display: block;
+    }
+    text{
+        margin-top:20px;
+        text-align: center;
+    }
+    #home-dropdown-content{
+        left:37%;
+    }
+
+}
+
+@media (min-width:501px){
+    home-content{
+        display: flex;
+    }
+    text{
+        text-align: justify;
+    }
 }
