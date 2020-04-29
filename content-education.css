@@ -15,11 +15,11 @@
     margin: auto;
     border-radius: 5px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 #matriculation:hover, #high-school:hover, #bachelors:hover{
     box-shadow: 0px 8px 16px 0px gray; 
     width: 27%;
     height: 72%;
-
 }
