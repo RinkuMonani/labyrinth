@@ -1,8 +1,4 @@
 .navigation{
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    /* width: 100%; */
     overflow: hidden;
 }
 .navigation ul{
@@ -13,18 +9,38 @@
     overflow: auto;
 }
 
-.navigation li{
-    float: left;
-}
 .navigation li a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    /* font-size: 1vw; */
 }
 
 .navigation li a:hover{
     background-color: #111;
     transition: 0.3s;
+}
+
+
+@media (max-width:920px){
+    .navigation{
+        position: static;
+    }
+    .navigation li{
+        float: none;
+    } 
+}
+
+@media (min-width:921px){
+    .navigation{
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+    }
+    .navigation li{
+        float: left;
+        
+    } 
 }
