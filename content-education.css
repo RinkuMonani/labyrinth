@@ -7,31 +7,43 @@
 #education{
     padding-top:20px;
     padding-bottom: 20px;
+    height: initial;
+    justify-content: center;
+    align-items: center;
 }
-#matriculation, #high-school, #bachelors{
-    background-color: white;
-    /* height: 20vh; */
+/* #matriculation, #high-school, #bachelors{ */
+.column{
+    background-color: rgb(128, 128, 128, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
     border-radius: 5px;
     font-weight: bold;
-    transition: 0.3s;
-    margin-bottom: 20px;
+    transition: 0.2s;
+    width: 25%;
+    height: 30vh;
+    /* padding: 15px; */
+    /* margin-left: 6vw; */
+    margin-top:10px;
+    
 }
 
+#education:after{
+    content:"";
+    display: table;
+    clear: both;
+}
 
 @media (max-width:800px){
     #education{
         display: block;
     }
-    #matriculation, #high-school, #bachelors{
+    .column{
         width:80%;
         height: 30vh;
     }
 
-    #matriculation:hover, #high-school:hover, #bachelors:hover{
+    .column:hover{
         box-shadow: 0px 8px 16px 0px gray; 
         width: 82%;
         height: 32vh;
@@ -43,11 +55,11 @@
     #education{
         display: flex;
     }
-    #matriculation, #high-school, #bachelors{
+    .column{
         width:25%;
         height: 40vh;
     }
-    #matriculation:hover, #high-school:hover, #bachelors:hover{
+    .column:hover{
         box-shadow: 0px 8px 16px 0px gray; 
         width: 27%;
         height: 42vh;
