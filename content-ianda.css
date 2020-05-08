@@ -1,0 +1,17 @@
+#i-and-a{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    padding:5px;
+}
+
+#bg{
+    height: 100%;
+    background-image: url("Pictures/codechef-logo-black-bg.png") , url("Pictures/cole.png") ;
+    background-position: right bottom, center center;
+    background-repeat: no-repeat, no-repeat;
+    background-color: skyblue;
+    background-size: auto, cover; 
+    background-origin: border-box;
+    /* box-shadow: 0px 8px 8px 0px skyblue; */
+    border-radius: 5px;
+}
