@@ -3,7 +3,8 @@
 }
 .navigation ul{
     list-style-type: none;
-    background-color: gray;
+    /* background-color: gray; */
+    background-color: rgb(0, 0, 0, 0.7);
     margin: 0;
     padding: 0;
     overflow: auto;
@@ -15,7 +16,6 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /* font-size: 1vw; */
 }
 
 .navigation li a:hover{
@@ -31,6 +31,7 @@
     }
     .navigation li{
         float: none;
+        font-size: 2.5vw;
     } 
 }
 
@@ -43,5 +44,6 @@
     }
     .navigation li{
         float: left;
+        font-size: 1.2vw;
     } 
 }
