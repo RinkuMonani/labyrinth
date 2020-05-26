@@ -38,9 +38,12 @@
     color:white;
     position: absolute;
     right: 38%;
-    transition: 0.9s;
+    /* transition: 0.9s; */
     text-align: center;
     font-size: 5vw;
+
+    /* transition: linear 10s; */
+    transition : linear 0.8s, transform 0.5s;
 }
 
 #labyrinth::after{
@@ -68,11 +71,12 @@
     transition: linear 0.3s;
     right: 25%;
     font-size:4.0vw;
+    /* transition-timing-function: ease-in; */
+    transform: skewX(-15deg);
     
 }
 .heading:hover #heading-text{
-    transition: 1.0s;
+    transition: 1.5s;
     opacity: 1;
     font-size:4.0vw;
-
 }
