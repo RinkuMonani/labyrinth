@@ -56,7 +56,17 @@ text a #lastline{
     opacity: 0;
     /* visibility: hidden; */ /*use when transition is not needed*/
     /* min-width: 160px; */
-    
+}
+#home-dropdown-content::after{
+    content:"";
+    color:red;
+    position: absolute;
+    bottom: 100%;
+    left:50%;
+    border-style: solid;
+    border-width: 7px;
+    margin-left: -5px;
+    border-color: transparent transparent gray transparent;
 }
 text:hover #home-dropdown-content{
     /* display: block; */
