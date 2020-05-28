@@ -11,7 +11,16 @@
     justify-content: center;
     align-items: center;
 }
-/* #matriculation, #high-school, #bachelors{ */
+
+.edu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 30vh;
+    margin-top:10px;
+
+}
 .column{
     background-color: rgb(128, 128, 128, 0.3);
     display: flex;
@@ -19,15 +28,56 @@
     align-items: center;
     border-radius: 5px;
     font-weight: bold;
-    transition: 0.2s;
-    width: 25%;
-    height: 30vh;
-    /* padding: 15px; */
-    /* margin-left: 6vw; */
-    margin-top:10px;
-    
+    /* transition: 0.5s; */
+    width:100%;
+    height: 100%;
 }
 
+text table td.sub, th{
+    text-align: left;
+}
+.edu-container{
+    position: relative;
+}
+
+.edu-container .overlay{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    top:50%;
+    left:50%;
+    transform : translate(-50%, -50%);
+    /* transition: opacity 1.5; */
+}
+
+.edu-container:hover .column{
+    /* background-color: red; */
+    transform: scaleX(-1);
+    transition: 0.5s;
+}
+
+.edu-container:hover p{
+    display: none;
+}
+.edu-container:hover .overlay{
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
+.edu-container text li{
+    padding:0px;
+    text-align: left;
+    margi
+}
+
+
+.column text{
+    color: blue;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/*clearfix hack*/
 #education:after{
     content:"";
     display: table;
@@ -38,30 +88,30 @@
     #education{
         display: block;
     }
-    .column{
+    .edu-container{
         width:80%;
         height: 30vh;
     }
 
-    .column:hover{
-        box-shadow: 0px 8px 16px 0px gray; 
+    /* .column:hover{
+        box-shadow: 0px 8px 16px 0px gray;
         width: 82%;
         height: 32vh;
-    }
-    
+    } */
+
 }
 
 @media (min-width:801px){
     #education{
         display: flex;
     }
-    .column{
+    .edu-container{
         width:25%;
         height: 40vh;
     }
-    .column:hover{
-        box-shadow: 0px 8px 16px 0px gray; 
+    /* .column:hover{
+        box-shadow: 0px 8px 16px 0px gray;
         width: 27%;
         height: 42vh;
-    }
+    } */
 }
