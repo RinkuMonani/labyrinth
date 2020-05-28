@@ -1,17 +1,16 @@
 .navigation{
     overflow: hidden;
     height: 2.5wh;
-    position: relative;
-    z-index: 1;
 }
 .navigation ul{
     list-style-type: none;
+    /* background-color: gray; */
+    /* background-color: rgb(0, 0, 0, 0.7);*/
     background-color: rgb(0, 0, 0, 0.9);
-
+    
     margin: 0;
     padding: 0;
     overflow: auto;
-
 }
 
 .navigation #nav-name{
@@ -22,7 +21,6 @@
     font-weight: bolder;
     font-size: larger; 
     display:block;
-    background-color: red;
 }
 .navigation li a{
     display: block;
@@ -38,75 +36,16 @@
     transition: 0.3s;
 }
 
-.navigation .navbar-content{
-    position: relative;
-    right: 0px;
-    width: 50%;
-    float: right;
-}
-
-.navigation #menu-icon{
-    float: right;
-    color:white; 
-    padding: 14px 16px;
-    font-family:Apple Chancery, cursive; 
-    font-weight: bolder;
-    font-size: larger; 
-    display:block;
-    background-color: red;
-}
-
-/* #menu-icon:hover {
-    background-color: pink;
-    display: block;
-} */
 
 @media (max-width:920px){
     .navigation{
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
+        position: static;
+        /* margin-top:10px; */
     }
-    /* .navigation li{
+    .navigation li, .navigation #nav-name{
         float: none;
         font-size: 2.0vw;
-    }  */
-
-    /* .navigation .navbar-content{
-        display: none;
-    
-    } */
-    /* .navigation #nav-name, #menu{
-        display: block;
-    } */
-
-    /* #menu:hover .navbar-content{
-        display: block;
-    } */
-
-    .menu .navbar-content{
-        display: none;
-    }
-    /* .navbar-content{
-        display:block;
-        font-size: 1vw;
-        text-align: left;
-        position: absolute;
-        margin-top:10px;
-        background-color: gray;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 5px 16px;
-        z-index: 1;
-        transition: opacity 0.4s;
-        opacity: 0;
-        
-    } */
-    .menu:hover .navbar-content{
-        display: block;
-        /* position: absolute; */
-        z-index:1;
-        opacity: 1;
-    }
+    } 
 }
 
 @media (min-width:921px){
