@@ -4,7 +4,7 @@
     /* background-image: linear-gradient(skyblue,royalblue, blue, darkblue, rgb(0, 0, 0, 0.9)); */
     /* background-image:linear-gradient( rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 1.0)); */
     background-image: url(Pictures/waterfall1.jpg);
-    background-position: top left;
+    background-position: top center;
     background-size: cover;
     /* filter: blur(1px); */
     width: 100%;
