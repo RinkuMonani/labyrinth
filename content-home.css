@@ -29,6 +29,7 @@ home-content{
     padding-left:30px;
     display: block;
     /* background-color: brown; */
+    position: relative;
 }
 #home a{
     text-align: justify;
@@ -54,12 +55,10 @@ text a #lastline{
     z-index: 1;
     transition: opacity 0.4s;
     opacity: 0;
-    /* visibility: hidden; */ /*use when transition is not needed*/
-    /* min-width: 160px; */
 }
 #home-dropdown-content::after{
     content:"";
-    color:red;
+    /* color:red; */
     position: absolute;
     bottom: 100%;
     left:50%;
