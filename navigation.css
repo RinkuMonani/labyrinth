@@ -1,63 +1,54 @@
 .navigation{
-    overflow: hidden;
-    height: 2.5wh;
+    background-color: rgb(0, 0, 0, 0.9)
 }
-.navigation ul{
+.menu{
+    overflow: hidden;
+    color:white;
+}
+.navigation a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation li a.menu-content, li a.menu-icon{
+    float: right;
+}
+
+.navigation .nav-name{
+    float:left;
+}
+
+.menu .menu-icon{
+    display:none;
+}
+
+.menu .menu-content:hover{
+    background-color: rgb(0,0,0, 0.3);
+    transition: 0.3s;
+}
+
+.menu ul{
     list-style-type: none;
-    /* background-color: gray; */
-    /* background-color: rgb(0, 0, 0, 0.7);*/
-    background-color: rgb(0, 0, 0, 0.9);
-    
-    margin: 0;
+    margin:0;
     padding: 0;
     overflow: auto;
 }
 
-.navigation #nav-name{
-    float:left;
-    color:white; 
-    padding: 14px 16px;
-    font-family:Apple Chancery, cursive; 
-    font-weight: bolder;
-    font-size: larger; 
-    display:block;
-}
-.navigation li a{
-    display: block;
-    color: white;
-    text-align: center;
-    /* padding: 16px 18px; */
-    padding: 20px;;
-    text-decoration: none;
-}
-
-.navigation li a:hover{
-    background-color: #111;
-    transition: 0.3s;
-}
-
-
-@media (max-width:920px){
-    .navigation{
-        position: static;
-        /* margin-top:10px; */
+@media screen and (max-width:920px){
+    .menu .menu-icon{
+        display: block;
     }
-    .navigation li, .navigation #nav-name{
-        float: none;
-        font-size: 2.0vw;
-    } 
-}
-
-@media (min-width:921px){
-    .navigation{
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-
+    .menu .menu-content{
+        /* display: block; */
+        display: none;
+        float:none;
+        min-width: 160px;
+        /* text-align: right; */
     }
-    .navigation li{
-        /* float: left; */
-        float: right;
-        font-size: 1.0vw;
-    } 
+   
 }
+
+
