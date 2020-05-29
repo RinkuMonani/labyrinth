@@ -1,54 +1,50 @@
 .navigation{
-    background-color: rgb(0, 0, 0, 0.9)
+    background-color: rgb(0,0,0,0.9);
+    border: 2px solid yellow;
+    position: relative;
+    color:red;
+    z-index: 1;
 }
-.menu{
-    overflow: hidden;
-    color:white;
-}
-.navigation a{
+
+.nav-name, .dropdown-icon{
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.navigation li a.menu-content, li a.menu-icon{
-    float: right;
+    color:white;
+    padding:20px;
+
+    border: 2px solid blue;
+    color:red;
 }
 
-.navigation .nav-name{
-    float:left;
-}
 
-.menu .menu-icon{
-    display:none;
-}
-
-.menu .menu-content:hover{
-    background-color: rgb(0,0,0, 0.3);
-    transition: 0.3s;
-}
-
-.menu ul{
+.dropdown .dropdown-content{
+    border: 2px solid pink;
     list-style-type: none;
     margin:0;
-    padding: 0;
+    padding:0;
+    /* border: 2px solid red; */
+
+    color:red;
+    
+    position: relative;
+    right:0;
+    z-index: 1;
     overflow: auto;
+    display: inline-block;
+
 }
-
-@media screen and (max-width:920px){
-    .menu .menu-icon{
-        display: block;
-    }
-    .menu .menu-content{
-        /* display: block; */
-        display: none;
-        float:none;
-        min-width: 160px;
-        /* text-align: right; */
-    }
-   
+.dropdown a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+    /* display: inline-block; */
+    color:red;
 }
-
-
+.dropdown{
+    border: 2px solid red;
+    /* position: relative; */
+    position: absolute;
+    display: inline-block;
+    border: 2px solid green;
+    color:red;
+}
