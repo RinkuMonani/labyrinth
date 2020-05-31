@@ -22,7 +22,7 @@
     /* font-size: large; */
 
     position: absolute;
-    left:0;
+    right:0;
     z-index: 1;
 }
 #nav-name-text{
@@ -49,7 +49,7 @@
     /* font-size:larger; */
     /* float:right; */
     position: absolute;
-    right:0;
+    left:0;
 }
 
 .dropdown-content{
@@ -79,12 +79,13 @@
     /* border: 2px solid blue; */
 }
 
-.backdrop{
+/* .backdrop{
     position: relative;
     top:55px;
     border: 2px solid red;
     height: 100vh;
-}
+} */
+
 .dropdown-content li:nth-child(odd){
     /* background-color: wheat; */
     background-color: gainsboro;
@@ -121,7 +122,7 @@
     }
     .dropdown-content{
         display: block;
-        float: right;
+        float: left;
         position: initial;
         /* padding:12px 14px; */
         color:white;
