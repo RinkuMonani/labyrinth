@@ -2,7 +2,7 @@
 .main-heading{
     color:black;
     background-color: black;
-;
+
     /*background: linear-gradient(to right, #0f2027, #203a43); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* background-image: linear-gradient(to right, #3C3B3F, #605C3C); */
     /* background-image: linear-gradient(skyblue,royalblue, blue, darkblue, rgb(0, 0, 0, 0.9)); */
@@ -27,24 +27,27 @@
 }
 .heading{
     box-sizing: border-box;
-    height: 45vh;
-    width: 50%;
-    /* background-color: red; */
+    height: 35vh;
+    width: 80%;
+    background-color: rgb(255, 0, 0, 0.7);
     /* margin:auto; */
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: 10px solid rgb(255, 0, 0, 0.9);
+    box-shadow: 0px 4px 8px 0px rgb(255, 0, 0, 0.5);
+    border-radius: 20px 0px 0px 20px;
 }
 #labyrinth{
     text-shadow: 4px 4px 4px skyblue;
     letter-spacing: -2px;
     font-style: normal;
     color:white;
-    position: absolute;
-    right: 38%;
+    /* position: absolute;
+    right: 38%; */
     /* transition: 0.9s; */
     text-align: center;
-    font-size: 5vw;
+    font-size: 7vh;
 
     /* transition: linear 10s; */
     transition : linear 0.3s, transform 0.5s;
@@ -62,25 +65,57 @@
     transition: linear 1s;
     font-size:4.0vw;
 }
+.heading:hover #labyrinth{
+    transition: linear 0.3s;
+    /* right: 25%; */
+    font-size:8vh;
+    transition-timing-function: ease-in;
+    transform: skewX(-15deg);
+}
+/* #labyrinth::before{
+    content:"Welcome to my ";
+    opacity: 0;
+    font-style: italic;
+    letter-spacing: 2px;
+    color:white;
+}
+.heading:hover #labyrinth::before{
+    opacity: 1;
+    transition: linear 1s;
+    font-size:4.0vw;
+} */
 
-#heading-text{
+
+/* #heading-text{
     opacity:0;
     position: absolute;
     left: 26%;
     text-shadow: 2px 2px 2px lightblue;
     color:white;
     font-style: italic;
-}
-.heading:hover #labyrinth{
+
+} */
+/* .heading:hover #labyrinth{
     transition: linear 0.3s;
     right: 25%;
     font-size:4.0vw;
-    /* transition-timing-function: ease-in; */
-    transform: skewX(-15deg);
+    transition-timing-function: ease-in; */
+    /* transform: skewX(-15deg);
     
-}
+}*/
+/*
 .heading:hover #heading-text{
     transition: 1.5s;
     opacity: 1;
     font-size:4.0vw;
+} */
+
+@media screen and (min-width:1200px){
+    #labyrinth{
+        font-size:7vw;
+    }
+
+    .heading:hover #labyrinth{
+        font-size: 8vw;
+    }
 }
