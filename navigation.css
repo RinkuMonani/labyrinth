@@ -11,12 +11,15 @@
 
 .navigation .nav-name{
     
+    height:55px;
+    width:40%;
+    text-align: left;
     padding:14px 16px;
     /* border: 2px solid blue; */
     color:white;
     font-family: consolas, monospace;
     font-weight: bolder;
-    font-size:larger;
+    font-size: 3.0vw;
 
     position: absolute;
     left:0;
@@ -132,6 +135,10 @@
         color:white;
         padding: 18px;
         height: 100%;
+    }
+
+    .navigation .nav-name{
+        font-size: 1.5vw;
     }
 }
 /* .nav-name, .dropdown-icon{
