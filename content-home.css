@@ -1,4 +1,4 @@
-#home{
+.home{
     box-sizing: border-box;
     display:flex;
     justify-content: center;
@@ -16,7 +16,7 @@ home-content{
 
 }
 
-#home img{
+.home img{
     border-radius: 50%;
     height: 20vw;
     width: 20vw;
@@ -25,13 +25,13 @@ home-content{
     /* border-image: url("Pictures/images.jpg") 30% round; */
 }
 
-#home text{
+.home text{
     padding-left:30px;
     display: block;
     /* background-color: brown; */
     position: relative;
 }
-#home a{
+.home a{
     text-align: justify;
     /* color:white; */
     color:black;
