@@ -122,7 +122,10 @@
         box-shadow: none;
         /* margin-top:5px; */
         height: 100%;
-        
+    }
+
+    .dropdown-content li:nth-child(odd){
+        background-color: initial;
     }
 
     .dropdown-content a{
