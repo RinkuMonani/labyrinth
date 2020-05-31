@@ -78,7 +78,8 @@
     height: 100vh;
 }
 .dropdown-content li:nth-child(odd){
-    background-color: wheat;
+    /* background-color: wheat; */
+    background-color: gainsboro;
 }
 .dropdown-content a{
     color:black;
@@ -101,10 +102,6 @@
     display: block;
 }
 
-.dropdown:hover .backdrop{
-    /* height: 90vh; */
-    background-color: rgb(245, 245, 245, 0.5);
-}
 
 @media screen and (min-width:1200px){
 
