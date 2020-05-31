@@ -1,10 +1,10 @@
-/* #education{
+/* .education{
     display: flex;
     justify-content: center;
     align-items: center;
     display: block;
 } */
-#education{
+.education{
     padding-top:50px;
     padding-bottom: 50px;
     height: initial;
@@ -62,7 +62,7 @@ text table td.sub, th{
     /* transition: opacity 1.5; */
 }
 
-/* .edu-container:hover #education{
+/* .edu-container:hover .education{
     background-color: red;;
 } */
 
@@ -100,14 +100,14 @@ text table td.sub, th{
     white-space: nowrap;
 }
 /*clearfix hack*/
-#education:after{
+.education:after{
     content:"";
     display: table;
     clear: both;
 }
 
 @media (max-width:800px){
-    #education{
+    .education{
         display: block;
     }
     .edu-container{
@@ -126,7 +126,7 @@ text table td.sub, th{
 }
 
 @media (min-width:801px){
-    #education{
+    .education{
         display: flex;
     }
     .edu-container{
