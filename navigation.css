@@ -12,14 +12,15 @@
 .navigation .nav-name{
     
     height:55px;
-    width:40%;
+    /* width:45%; */
     text-align: left;
     padding:14px 16px;
     /* border: 2px solid blue; */
     color:white;
     font-family: consolas, monospace;
     font-weight: bolder;
-    font-size: 3.0vw;
+    /* font-size: 3.0vw; */
+    font-size: large;
 
     position: absolute;
     left:0;
