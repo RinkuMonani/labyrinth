@@ -127,18 +127,7 @@
         background-image:url("pictures/mainHeading22.jpg"), linear-gradient(230deg,#f533d4,#2461bb);
         background-blend-mode: luminosity;
     }
-    .mainHeading{
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        height: 50vh;
-        width: 100%;
-        bottom: -150%;
-        background: rgba(255,255,255,1);
-        transform-origin: top left;
-        transform: skewY(-5deg);
-    }
+
     #labyrinth{
         font-size:7vw;
     }
