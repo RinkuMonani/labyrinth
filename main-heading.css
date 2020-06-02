@@ -1,8 +1,9 @@
 
 .main-heading{
     color:black;
-    background-image: url("Pictures/mainHeading21.jpg"),linear-gradient(230deg,#f533d4,#2461bb);
-    background-blend-mode: luminosity;
+    /* background-image: url("Pictures/mainHeading21.jpg"),linear-gradient(230deg,#f533d4,#2461bb); */
+    background-image: url("Pictures/mainHeading21.jpg");
+    /* background-blend-mode: luminosity; */
     /*background: linear-gradient(to right, #0f2027, #203a43); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* background-image: linear-gradient(to right, #3C3B3F, #605C3C); */
     /* background-image: linear-gradient(skyblue,royalblue, blue, darkblue, rgb(0, 0, 0, 0.9)); */
@@ -28,34 +29,40 @@
 
 .heading{
     box-sizing: border-box;
-    height: 30%;
+    height: 15%;
     width: 80%;
-    /* background-color: rgb(255, 0, 0, 0.7); */
+    
     /* margin:auto; */
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    /*justify-content: center; */
     /* align-items: center; */
     /* border-right: 10px solid rgb(255, 0, 0, 0.9);
     box-shadow: 0px 4px 8px 0px rgb(255, 0, 0, 0.5); */
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 2px;
+
+    background-image:linear-gradient(230deg,rgb(245, 51, 212,0.5),rgb(36, 97, 187, 0.5));
+    /* background-blend-mode: luminosity; */
+   
 }
 #labyrinth{
-    text-shadow: 4px 4px 4px skyblue;
+    
+    text-shadow: 4px 4px 4px black;
     letter-spacing: -2px;
     font-style: normal;
     color:white;
-    z-index: 10;
+    z-index: 1;
     /* position: absolute;
     right: 38%; */
     /* transition: 0.9s; */
     text-align: center;
-    font-size: 7vh;
+    font-size: 9vh;
     /* transition: linear 10s; */
     transition : linear 0.3s, transform 0.5s;
 }
 
 #labyrinth::after{
     content:".";
+    font-size: 9vh;
     opacity: 0;
     font-style: italic;
     letter-spacing: 2px;
@@ -64,12 +71,13 @@
 .heading:hover #labyrinth::after{
     opacity: 1;
     transition: linear 1s;
-    font-size:4.0vw;
+    /* font-size:4.0vw; */
+    font-size: 10vh;
 }
 .heading:hover #labyrinth{
     transition: linear 0.3s;
     /* right: 25%; */
-    font-size:8vh;
+    font-size:10vh;
     transition-timing-function: ease-in;
     transform: skewX(-15deg);
 }
@@ -114,10 +122,14 @@
 @media screen and (min-width:1200px){
     /* .main-heading{
         height: 90vh;
-    }
+    }*/
     .heading{
-        height: 30%;
-    } */
+        position: absolute;
+        top:170px;
+        left:125px;
+        background-image: none;
+        height: auto;
+    }
     .main-heading{
         /* background-image: url("pictures/mainHeading2.jpg"),linear-gradient(180deg,rgba(255,255,255,0.5),rgba(0,0,0,0.5)); */
         /* background-blend-mode: overlay; */
@@ -125,7 +137,7 @@
         height: 100vh;
         /* border-radius: 0 0 50% 50%/0 0 100% 100%; */
         background-image:url("pictures/mainHeading22.jpg"), linear-gradient(230deg,#f533d4,#2461bb);
-        background-blend-mode: luminosity;
+        /* background-blend-mode: luminosity; */
     }
 
     #labyrinth{
