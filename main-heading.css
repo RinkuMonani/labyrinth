@@ -136,8 +136,8 @@
         /* filter: blur(1px); */
         height: 100vh;
         /* border-radius: 0 0 50% 50%/0 0 100% 100%; */
-        background-image:url("pictures/mainHeading22.jpg"), linear-gradient(230deg,#f533d4,#2461bb);
-        /* background-blend-mode: luminosity; */
+        background-image:url("Pictures/mainHeading22.jpg");/*, linear-gradient(230deg,#f533d4,#2461bb);*/
+        /*background-blend-mode: luminosity;*/
     }
 
     #labyrinth{
